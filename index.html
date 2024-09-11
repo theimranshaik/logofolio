@@ -69,20 +69,32 @@
             margin: 0;
             font-size: 1.2rem;
             color: #444;
-        }
-
+     }
         footer {
+            text-align: center;
+            margin-top: 50px;
+            }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+        }
+        footer a {
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #007BFF;
+            padding: 2.5px 5px;
+            border-radius: 5px;
+            border: 1px solid #000000;
+            transition: all 0.3s ease;
+        }
+        footer a:hover {
             background-color: #000000;
             color: white;
-            text-align: center;
-            padding: 1rem;
-            margin-top: 1rem;
         }
-
-        footer p {
-            margin: 10;
+        footer a:hover {
+            background-color: #007BFF;
+            color: white;
         }
-
         @media (max-width: 768px) {
             .container {
                 grid-template-columns: 1fr;
